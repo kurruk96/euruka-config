@@ -1,9 +1,7 @@
-#spring:
-#  data:
-#  mongodb:
-#    authentication-database: admin
-#    username: root
-#    password: root
-#    database: book_db
-#    port: 27018
-#    host: localhost
+spring:
+  data:
+  mongodb:
+    database: admin
+    username: root
+    password: root
+    port: 27018
