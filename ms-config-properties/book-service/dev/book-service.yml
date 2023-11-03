@@ -1,8 +1,9 @@
 spring:
   data:
-    mongodb:
-      uri: mongodb://root:root@localhost:27018/book_db
-#      username: root #your_root_user     (default->rootuser)
-#      password: root #your_root_password (default->rootpass)
-#      database: book_db #your_db_name
-#      port: 27018 #your_port              (default->27017)
+  mongodb:
+    authentication-database: admin
+    username: root
+    password: root
+    database: book_db
+    port: 27018
+    host: localhost
