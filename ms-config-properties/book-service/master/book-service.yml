@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      username: root #your_root_user     (default->rootuser)
+      password: root #your_root_password (default->rootpass)
+      database: book_db #your_db_name
+      port: 27018 #your_port              (default->27017)
